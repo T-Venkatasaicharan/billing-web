@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = "http://localhost:8080/bills";
+const API = "https://billing-web-b447.onrender.com/bills";
 
 export default function BillHistory() {
 

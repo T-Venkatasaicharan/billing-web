@@ -7,11 +7,10 @@ export default function Invoice({ bill }) {
 
   if (!bill) return <p style={{ textAlign: "center" }}>Loading...</p>;
 
-  // 🤖 AI Summary (backend call)
   const getAISummary = () => {
     setLoading(true);
 
-    fetch("http://localhost:8080/ai/summary", {
+    fetch("https://billing-web-b447.onrender.com/ai/summary", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
