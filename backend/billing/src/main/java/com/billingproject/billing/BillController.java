@@ -18,7 +18,6 @@ public class BillController {
         return service.createBill(bill);
     }
 
-
     @GetMapping
     public List<Bill> getAll() {
         return service.getAllBills();
