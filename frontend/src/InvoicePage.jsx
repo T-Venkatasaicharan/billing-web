@@ -53,6 +53,8 @@ export default function InvoicePage() {
           style={{
             display: "flex",
             justifyContent: "space-between",
+            flexWrap: "wrap",
+            gap: "20px",
             alignItems: "center",
             marginBottom: "30px"
           }}
